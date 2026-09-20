@@ -1,0 +1,220 @@
+# 🌦️ Weather Live - Real-Time Weather Application
+
+A dynamic and interactive weather web application developed as **Task 5** of my **Web Development Internship at Prodigy Infotech**.
+
+The application fetches real-time weather information based on the user's searched city or current location and presents it through an interactive **live weather broadcast-style interface** featuring animated clouds, sun, moon, rain, and a weather reporter.
+
+---
+
+## 🚀 Features
+
+* 🌍 Search weather by city name
+* 📍 Detect weather using the user's current location
+* 🌡️ Display current temperature
+* ☁️ Display weather condition and cloud coverage
+* 💧 Display humidity
+* 💨 Display wind speed
+* 🌧️ Display rainfall information
+* ☀️ Animated moving sun
+* ☁️ Continuously moving clouds
+* 🌙 Animated moon and stars during nighttime
+* 🌧️ Animated rainfall during rainy conditions
+* 🎙️ Weather reporter with microphone
+* 💬 Live weather announcement
+* 🔊 Text-to-speech weather announcement
+* 🔄 Automatic weather data refresh
+* 📱 Responsive design for different screen sizes
+* ✨ Glassmorphism-style weather interface
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+* Open-Meteo Weather API
+* Open-Meteo Geocoding API
+* Browser Geolocation API
+* Web Speech API
+* VS Code
+* Live Server
+* Git & GitHub
+
+---
+
+## 🌐 API Used
+
+This project uses **Open-Meteo** to retrieve weather information.
+
+### Weather API
+
+https://api.open-meteo.com/
+
+### Geocoding API
+
+https://geocoding-api.open-meteo.com/
+
+The application uses the geocoding service to convert a city name into latitude and longitude coordinates and then retrieves the corresponding weather data.
+
+**No API key is required for this project.**
+
+---
+
+## 📂 Project Structure
+
+```text
+PRODIGY_WD_TASK5/
+│
+├── index.html
+├── style.css
+└── script.js
+```
+
+---
+
+## ⚙️ How It Works
+
+1. The user enters a city name.
+2. The application sends the city name to the Open-Meteo Geocoding API.
+3. The API returns the location coordinates.
+4. The application uses those coordinates to request current weather data.
+5. JavaScript updates the temperature, humidity, wind speed, cloud coverage, rainfall, and weather condition.
+6. The background animation changes according to the current weather.
+7. The weather reporter generates a live weather announcement.
+8. The Web Speech API can read the announcement aloud.
+
+The application can also use the browser's location permission to retrieve weather for the user's current location.
+
+---
+
+## 🎨 Live Weather Environment
+
+The application dynamically changes its environment according to the weather.
+
+### ☀️ Clear Weather
+
+The sun moves continuously across the sky.
+
+### ☁️ Cloudy Weather
+
+Animated clouds move across the background.
+
+### 🌧️ Rainy Weather
+
+Animated raindrops appear across the screen.
+
+### 🌙 Night
+
+The sun is replaced by the moon and stars appear in the background.
+
+### 🎙️ Weather Reporter
+
+A weather reporter stands in the broadcast section with a microphone and announces the current weather conditions.
+
+---
+
+## 🔊 Voice Weather Announcement
+
+The application uses the browser's **Web Speech API** to provide a voice-based weather announcement.
+
+Clicking the **"Announce Weather"** button allows the reporter to read the current weather information aloud.
+
+---
+
+## 💻 How to Run Locally
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Keerthanagithub17/PRODIGY_WD_TASK5.git
+```
+
+### 2. Open the Project
+
+```bash
+cd PRODIGY_WD_TASK5
+```
+
+### 3. Open in VS Code
+
+Open the project folder in Visual Studio Code.
+
+### 4. Run Using Live Server
+
+Right-click `index.html` and select:
+
+```text
+Open with Live Server
+```
+
+The application will open in your browser.
+
+---
+
+## 🔗 Repository
+
+**GitHub Profile:**
+
+https://github.com/Keerthanagithub17
+
+**Task 5 Repository:**
+
+https://github.com/Keerthanagithub17/PRODIGY_WD_TASK5
+
+---
+
+## 🌐 Live Demo
+
+**Live Demo:**
+
+https://keerthanagithub17.github.io/PRODIGY_WD_TASK5/
+
+---
+
+## 📸 Project Highlights
+
+This project provides a visually interactive weather experience rather than displaying weather information as a simple static card.
+
+It combines:
+
+* Real-time weather data
+* Animated environmental effects
+* Location-based weather
+* Voice announcements
+* Interactive city search
+* Dynamic weather backgrounds
+* Responsive user interface
+
+to create a weather broadcast-style web application.
+
+---
+
+## 🎯 Internship Task
+
+**Task:** Task 5 – Weather Web Application
+
+**Internship:** Web Development Internship
+
+**Organization:** Prodigy Infotech
+
+---
+
+## 🙏 Acknowledgment
+
+I would like to thank **Prodigy Infotech** for providing me with the opportunity to work on this project as part of my Web Development Internship.
+
+This task helped me strengthen my skills in **HTML, CSS, JavaScript, API integration, asynchronous programming, browser APIs, animations, and responsive web design**.
+
+---
+
+## 👩‍💻 Developed By
+
+**Keerthana**
+
+Web Development Intern
+Prodigy Infotech
+
+---
+
+⭐ If you found this project interesting, feel free to explore the repository and try the live demo!
